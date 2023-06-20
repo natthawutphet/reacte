@@ -17,6 +17,7 @@ function About() {
                     </div>
                 </div>
                 <img class="img-fluid" src="assets/img/คอร์สเรียนทำโฆษณา ออนไลน์ เฟสบุ๊ค สายเทา กุเกิ้ล สายเทา.jpg" alt="คอร์สเรียนทำโฆษณา ออนไลน์ เฟสบุ๊ค สายเทา กุเกิ้ล สายเทา" />
+                <img class="img-fluid" src="assets/img/รับจ้างยิงแอด.jpg" alt="ทีมงาน รับจ้างยิงแอด สายเทา" />
             </div>
         </section>
     </>

@@ -57,8 +57,6 @@ window.addEventListener('DOMContentLoaded', event => {
 document.getElementById('facebook').onclick = facebook ;
 document.getElementById('google').onclick = google ;
 
-
-
 function facebook() {
    
         swal({

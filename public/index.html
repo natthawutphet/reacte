@@ -13,6 +13,12 @@
     <meta name="robots" content="INDEX,FOLLOW">
     <meta property="og:image" content="img/logo.png">
     <title>รับทำโฆษณาออนไลน์ รับยิงแอดโฆษณาGoogle Ads Facebook Ads สายเทา </title>
+    <meta property="og:type" content="website" /> 
+   <meta property="og:url" content="https://metatags.io" />
+   <meta property="og:title" content="รับทำโฆษณาออนไลน์ รับยิงแอดโฆษณาGoogle Ads Facebook Ads สายเทา" />
+   <meta property="og:description" content="รับทำโฆษณาออนไลน์ รับยิงแอดโฆษณาGoogle Ads Facebook Ads สายเทา" />
+   <meta property="og:image" content="assets/img/logo.png" />
+
     <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -23,28 +29,69 @@
     <link href="css/styles.css" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11217036115"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'AW-11217036115');
+</script>
+
+<!-- Event snippet for อื่นๆ conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-11217036115/NiDcCN-akq4YENPG2eQp'});
+</script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+   
 
     <script src="js/scripts.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert-dev.js"></script>
   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      
+document.getElementById('facebook').onclick = facebook ;
+document.getElementById('google').onclick = google ;
 
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+function facebook() {
+   
+        swal({
+            title: "กรุณารอ 10 วินาที...",
+            text:  "โหลดไฟล์เทมเพลตสำหรับใช้งานกลับ Facebook",
+            type: "success"
+        }, function() {
+            setTimeout(() => {
+            window.location = "template-website-Facebook-ads.zip"; //หน้าที่ต้องการให้กระโดดไป
+        }, 10000);
+        });
+   
+}
+
+function google() {
+   
+        swal({
+            title: "กรุณารอ 10 วินาที...",
+            text:  "โหลดไฟล์เทมเพลตสำหรับใช้งานกลับ google",
+            type: "success"
+        }, function() {
+            setTimeout(() => {
+            window.location = "template-website-google-ads.zip"; //หน้าที่ต้องการให้กระโดดไป
+        }, 10000);
+        });
+   
+}
+
+
+
+
+    </script>
   </body>
 </html>
